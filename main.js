@@ -1,9 +1,9 @@
 var imgNumber = 0;
 var path = [
-  "http://themarklee.com/wp-content/uploads/2013/12/snowying.jpg",
-  "http://themarklee.com/wp-content/uploads/2013/12/starlight.jpg",
-  "http://themarklee.com/wp-content/uploads/2013/12/snowstorm.jpg",
-  "http://themarklee.com/wp-content/uploads/2013/12/misty-winter-afternoon.jpg",
+  "https://gamek.mediacdn.vn/133514250583805952/2021/9/17/photo-1-16318566455422115837189.jpeg",
+  "https://gamek.mediacdn.vn/133514250583805952/2021/9/17/photo-1-1631856680040545802895.jpg",
+  "https://gamek.mediacdn.vn/133514250583805952/2021/9/17/photo-1-1631856723678951649835.jpg",
+  "https://gamek.mediacdn.vn/133514250583805952/2021/9/17/photo-1-16318567950911173571686.jpg",
 ];
 var numberOfImg = path.length;
 var timer = null;
