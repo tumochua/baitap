@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #slideshow {
+        margin: 50px auto;
+        position: relative;
+        width: 900px;
+        height: 450px;
+        padding: 10px;
+      }
+      #slideshow > div {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+      }
+      #slideshow > div > img {
+        width: 100%;
+      }
+      #button {
+        text-align: center;
+      }
+      #startCycle {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="slideshow">
+      <div>
+        <img
+          name="slide"
+          id="imgSlideshow"
+          src="http://themarklee.com/wp-content/uploads/2013/12/snowying.jpg"
+        />
+      </div>
+    </div>
+    <div id="button">
+      <a href="#" id="prevBtn" onclick="return previousImage()">Prev</a>
+      <a href="#" id="startCycle" onclick="return setTimer()">Play</a>
+      <a href="#" id="startCycle" onclick="return setTimer()">Pause</a>
+      <a href="#" id="nextBtn" onclick="return nextImage()">Next</a>
+    </div>
+    <div id="counter"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
